@@ -3,7 +3,7 @@
 Yleisiä linkkejä:
 
 * [Linkki sovellukseeni](https://users.cs.helsinki.fi/tzpirine/drinkkiarkisto)
-* [Linkki dokumentaatiooni](https://github.com/tnli/drinkkiarkisto)
+* [Linkki dokumentaatiooni](https://github.com/tnli/drinkkiarkisto/blob/master/doc/dokumentaatio.pdf)
 
 ## Työn aihe
 
