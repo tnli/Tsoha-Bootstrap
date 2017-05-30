@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Muokkaa drinkkiä Vodka martini</h1>
+
+    <form>
+        <div class="form-group">
+            <label>Nimi</label>
+            <input type="text" class="form-control" value="Vodka martini">
+        </div>
+        <div class="form-group">
+            <label>Tyyppi</label>
+            <input type="text" class="form-control" value="Cokctail">
+        </div>
+        <div class="form-group">
+            <label>Notes</label>
+            <textarea class="form-control">Vodka martini on hyvä drinkki, James Bondin suosikki</textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Tallenna</button>
+        </div>
+    </form>
+{% endblock %}

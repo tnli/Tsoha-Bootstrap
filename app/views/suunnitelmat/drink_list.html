@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Käyttäjän Erkka drinkkikirjasto</h1>
+
+    <p>
+        <a href="#" class="btn btn-success">Lisää drinkki</a>
+    </p>
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Nimi</th>
+                <th>Tyyppi</th>
+                <th>Vahvuus</th>
+                <th>Arvosana</th>
+                <th>Notes</th>
+                <th></th>
+            <tr>
+        <thead>
+
+        <tbody>
+            <tr>
+                <td><a href="#">Vodka martini</a></td>
+                <td>Cocktail</td>
+                <td>35%</td>
+                <td>4/5</td>
+                <td>Try shaken, not stirred</td>
+                <td><a class="btn btn-default btn-sm" href="#">Muokkaa</a></th>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
